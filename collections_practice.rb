@@ -53,3 +53,11 @@ end
       name.start_with?("a")
     end 
   end
+  def sum_array(array_integer)
+    n = 0 
+    sum = 0
+    for n in (0..array_integer.size)
+    sum = sum + array_integer[n]
+  end
+  return sum
+end 
