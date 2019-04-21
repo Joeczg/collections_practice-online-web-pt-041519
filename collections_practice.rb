@@ -63,8 +63,8 @@ end
 end 
 def add_s(array_string)
   array_string.collect {|name| name << "s"}
-  new_array=[]
+
   array_string[1].delete("s")
-  new_array=array_string
-  return new_array
+  
+  return array_string
 end
