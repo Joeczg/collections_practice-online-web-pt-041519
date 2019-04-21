@@ -62,9 +62,10 @@ end
   return sum
 end 
 def add_s(array_string)
-  array_string.collect {|name| name << "s"}
+  new_array = []
+new_array=  array_string.collect {|name| name << "s"}
 
-  array_string[1].delete("s")
+  new_array[1].delete("s")
   
-  return array_string
+  return new_array
 end
